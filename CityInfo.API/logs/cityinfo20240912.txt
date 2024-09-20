@@ -1,0 +1,187 @@
+2024-09-12 05:53:09.371 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-12 05:53:11.126 +01:00 [DBG] Entity Framework Core 8.0.8 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.8' with options: None
+2024-09-12 05:53:12.605 +01:00 [DBG] 'CityInfoContext' disposed.
+2024-09-12 05:54:43.263 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-12 05:54:44.276 +01:00 [DBG] Entity Framework Core 8.0.8 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.8' with options: None
+2024-09-12 05:54:45.326 +01:00 [DBG] Creating DbConnection.
+2024-09-12 05:54:45.348 +01:00 [DBG] Created DbConnection. (17ms).
+2024-09-12 05:54:45.359 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.Db'.
+2024-09-12 05:54:45.389 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db'.
+2024-09-12 05:54:45.401 +01:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.Db'.
+2024-09-12 05:54:45.407 +01:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.Db' (1ms).
+2024-09-12 05:54:45.418 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-09-12 05:54:45.419 +01:00 [DBG] Creating DbConnection.
+2024-09-12 05:54:45.420 +01:00 [DBG] Created DbConnection. (0ms).
+2024-09-12 05:54:45.428 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (8ms).
+2024-09-12 05:54:45.430 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (15ms).
+2024-09-12 05:54:45.430 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.Db'.
+2024-09-12 05:54:45.434 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db'.
+2024-09-12 05:54:45.444 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-09-12 05:54:45.487 +01:00 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-09-12 05:54:45.490 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db'.
+2024-09-12 05:54:45.493 +01:00 [DBG] Closed connection to database 'main' on server 'CityInfo.Db' (2ms).
+2024-09-12 05:54:45.514 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.Db'.
+2024-09-12 05:54:45.514 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db'.
+2024-09-12 05:54:45.514 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-12 05:54:45.515 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-12 05:54:45.515 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-12 05:54:45.516 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-09-12 05:54:45.517 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-09-12 05:54:45.522 +01:00 [DBG] Closing data reader to 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db'.
+2024-09-12 05:54:45.523 +01:00 [DBG] A data reader for 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db' is being disposed after spending 4ms reading results.
+2024-09-12 05:54:45.524 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db'.
+2024-09-12 05:54:45.524 +01:00 [DBG] Closed connection to database 'main' on server 'CityInfo.Db' (0ms).
+2024-09-12 05:54:45.609 +01:00 [DBG] 'CityInfoContext' disposed.
+2024-09-12 05:54:45.611 +01:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.Db'.
+2024-09-12 05:54:45.611 +01:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.Db' (0ms).
+2024-09-12 05:56:48.751 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-12 05:56:49.891 +01:00 [DBG] Entity Framework Core 8.0.8 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.8' with options: None
+2024-09-12 05:56:51.496 +01:00 [DBG] 'CityInfoContext' disposed.
+2024-09-12 05:57:04.828 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-12 05:57:06.802 +01:00 [DBG] Entity Framework Core 8.0.8 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.8' with options: None
+2024-09-12 05:57:06.856 +01:00 [DBG] Creating DbConnection.
+2024-09-12 05:57:06.881 +01:00 [DBG] Created DbConnection. (17ms).
+2024-09-12 05:57:06.891 +01:00 [DBG] Migrating using database 'main' on server 'CityInfo.Db'.
+2024-09-12 05:57:06.899 +01:00 [DBG] Creating DbConnection.
+2024-09-12 05:57:06.905 +01:00 [DBG] Created DbConnection. (6ms).
+2024-09-12 05:57:06.910 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.Db'.
+2024-09-12 05:57:06.933 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db'.
+2024-09-12 05:57:06.944 +01:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.Db'.
+2024-09-12 05:57:06.956 +01:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.Db' (2ms).
+2024-09-12 05:57:06.973 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-09-12 05:57:06.986 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (10ms).
+2024-09-12 05:57:06.989 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (21ms).
+2024-09-12 05:57:06.989 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.Db'.
+2024-09-12 05:57:06.995 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db'.
+2024-09-12 05:57:07.016 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-09-12 05:57:07.077 +01:00 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-09-12 05:57:07.082 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db'.
+2024-09-12 05:57:07.087 +01:00 [DBG] Closed connection to database 'main' on server 'CityInfo.Db' (6ms).
+2024-09-12 05:57:07.090 +01:00 [DBG] Creating DbConnection.
+2024-09-12 05:57:07.090 +01:00 [DBG] Created DbConnection. (0ms).
+2024-09-12 05:57:07.090 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.Db'.
+2024-09-12 05:57:07.092 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db'.
+2024-09-12 05:57:07.092 +01:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.Db'.
+2024-09-12 05:57:07.092 +01:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.Db' (0ms).
+2024-09-12 05:57:07.093 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-09-12 05:57:07.093 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-09-12 05:57:07.093 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-09-12 05:57:07.093 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.Db'.
+2024-09-12 05:57:07.093 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db'.
+2024-09-12 05:57:07.094 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-09-12 05:57:07.095 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-09-12 05:57:07.095 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db'.
+2024-09-12 05:57:07.095 +01:00 [DBG] Closed connection to database 'main' on server 'CityInfo.Db' (0ms).
+2024-09-12 05:57:07.141 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.Db'.
+2024-09-12 05:57:07.141 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db'.
+2024-09-12 05:57:07.141 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-12 05:57:07.142 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-12 05:57:07.142 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-12 05:57:07.143 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-09-12 05:57:07.144 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-09-12 05:57:07.153 +01:00 [DBG] Closing data reader to 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db'.
+2024-09-12 05:57:07.155 +01:00 [DBG] A data reader for 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db' is being disposed after spending 8ms reading results.
+2024-09-12 05:57:07.155 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db'.
+2024-09-12 05:57:07.156 +01:00 [DBG] Closed connection to database 'main' on server 'CityInfo.Db' (0ms).
+2024-09-12 05:57:07.185 +01:00 [INF] Applying migration '20240912045651_dataSeed'.
+2024-09-12 05:57:07.290 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.Db'.
+2024-09-12 05:57:07.291 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db'.
+2024-09-12 05:57:07.299 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-12 05:57:07.306 +01:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-09-12 05:57:07.310 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 05:57:07.310 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 05:57:07.311 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-09-12 05:57:07.313 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'Center of Excellence', 'Lagos');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'Gateway State', 'Ogun');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The People''s Paradise', 'Cross River');
+SELECT changes();
+2024-09-12 05:57:07.622 +01:00 [INF] Executed DbCommand (309ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'Center of Excellence', 'Lagos');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'Gateway State', 'Ogun');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The People''s Paradise', 'Cross River');
+SELECT changes();
+2024-09-12 05:57:07.622 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 05:57:07.623 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 05:57:07.623 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 05:57:07.623 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'An functional electric-powered rail line in a country with insufficient electricity', 'Marina Blue Line Railway');
+SELECT changes();
+
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A national monument: relic of the 1977 Festival of Arts and Culture hosted in Nigeria', 'National Arts Theatre');
+SELECT changes();
+
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (3, 2, 'A historical place of refuge in times of war', 'Olumo Rock');
+SELECT changes();
+
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (4, 3, 'A multi million dollar white elephant project', 'Tinapa Resort');
+SELECT changes();
+2024-09-12 05:57:07.625 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'An functional electric-powered rail line in a country with insufficient electricity', 'Marina Blue Line Railway');
+SELECT changes();
+
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A national monument: relic of the 1977 Festival of Arts and Culture hosted in Nigeria', 'National Arts Theatre');
+SELECT changes();
+
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (3, 2, 'A historical place of refuge in times of war', 'Olumo Rock');
+SELECT changes();
+
+INSERT INTO "PointOfInterests" ("Id", "CityId", "Description", "Name")
+VALUES (4, 3, 'A multi million dollar white elephant project', 'Tinapa Resort');
+SELECT changes();
+2024-09-12 05:57:07.625 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-12 05:57:07.626 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 05:57:07.626 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-12 05:57:07.626 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240912045651_dataSeed', '8.0.8');
+2024-09-12 05:57:07.626 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240912045651_dataSeed', '8.0.8');
+2024-09-12 05:57:07.630 +01:00 [DBG] Committing transaction.
+2024-09-12 05:57:07.639 +01:00 [DBG] Committed transaction.
+2024-09-12 05:57:07.643 +01:00 [DBG] Disposing transaction.
+2024-09-12 05:57:07.644 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\'Seyi\Desktop\WEB API\CityInfo\CityInfo.API\CityInfo.Db'.
+2024-09-12 05:57:07.644 +01:00 [DBG] Closed connection to database 'main' on server 'CityInfo.Db' (0ms).
+2024-09-12 05:57:07.649 +01:00 [DBG] 'CityInfoContext' disposed.
+2024-09-12 05:57:07.651 +01:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.Db'.
+2024-09-12 05:57:07.652 +01:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.Db' (0ms).
