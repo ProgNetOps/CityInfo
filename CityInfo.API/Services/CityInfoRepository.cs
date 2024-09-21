@@ -6,9 +6,49 @@ namespace CityInfo.API.Services
 {
     public class CityInfoRepository(CityInfoContext context) : ICityInfoRepository
     {
+        public async Task AddPointOfInterestForCityAsync(int cityId, PointOfInterest pointOfInterest)
+        {
+            var city = await GetCityAsync(cityId,false);
+
+            if (city is not null)
+            {
+                city.PointsOfInterest.Add(pointOfInterest);
+            }
+        }
+
+        /// <summary>
+        /// Checks if a city exists
+        /// </summary>
+        /// <param name="cityId">id of city</param>
+        /// <returns>boolean indicating existence of city</returns>
+        public async Task<bool> CityExistsAsync(int cityId)
+        {
+            return await context.Cities.AnyAsync(x => x.Id == cityId);
+        }
+
+        public void DeletePointOfInterest(PointOfInterest pointOfInterest)
+        {
+            context.PointOfInterests.Remove(pointOfInterest);
+        }
+
         public async Task<IEnumerable<City>> GetCitiesAsync()
         {
             return await context.Cities.OrderBy(x => x.Name).ToListAsync();
+        }
+        public async Task<IEnumerable<City>> GetCitiesAsync(string? name)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                return await GetCitiesAsync();
+            }
+            else
+            {
+                return await context.Cities
+                    .Where(q => q.Name == name)
+                    .OrderBy(x => x.Name)
+                    .ToListAsync();
+
+            }
         }
 
         /// <summary>
@@ -45,6 +85,11 @@ namespace CityInfo.API.Services
         {
             return await context.PointOfInterests
                 .Where(x => x.CityId == cityId).ToListAsync();
+        }
+
+        public async Task<bool> SaveChangesAsync()
+        {
+            return (await context.SaveChangesAsync() >= 0);
         }
     }
 }

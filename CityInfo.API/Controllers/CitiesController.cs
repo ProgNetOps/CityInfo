@@ -11,7 +11,7 @@ public class CitiesController(ICityInfoRepository cityInfoRepository, IMapper ma
 {
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<CityWithoutPointOfInterestDto>>> GetCities()
+    public async Task<ActionResult<IEnumerable<CityWithoutPointOfInterestDto>>> GetCities([FromQuery]string? name)
     {
         var cityEntities = await cityInfoRepository.GetCitiesAsync();
 
@@ -37,7 +37,9 @@ public class CitiesController(ICityInfoRepository cityInfoRepository, IMapper ma
         }
         else if (includePointsOfInterest is true)
         {
-            return Ok(mapper.Map<CityDto>(city));
+            var result = mapper.Map<CityDto>(city);
+            var em = result.NumberOfPointsOfInterest;
+            return Ok(result);
         }
         else
         {

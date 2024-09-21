@@ -285,3 +285,4 @@ C:\Repository\CityInfo\CityInfo.API\obj\Debug\net8.0\CityInfo.API.pdb
 C:\Repository\CityInfo\CityInfo.API\obj\Debug\net8.0\CityInfo.API.genruntimeconfig.cache
 C:\Repository\CityInfo\CityInfo.API\obj\Debug\net8.0\ref\CityInfo.API.dll
 C:\Repository\CityInfo\CityInfo.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Repository\CityInfo\CityInfo.API\obj\Debug\net8.0\CityInfo.API.sourcelink.json
