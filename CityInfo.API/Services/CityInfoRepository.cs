@@ -35,6 +35,7 @@ namespace CityInfo.API.Services
         {
             return await context.Cities.OrderBy(x => x.Name).ToListAsync();
         }
+
         public async Task<IEnumerable<City>> GetCitiesAsync(string? name)
         {
             if (string.IsNullOrWhiteSpace(name))

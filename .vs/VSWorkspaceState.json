@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CityInfo.API",
+    "\\CityInfo.API\\Models",
+    "\\CityInfo.API\\Services"
+  ],
+  "SelectedNode": "\\CityInfo.API\\Services\\CityInfoRepository.cs",
+  "PreviewInSolutionExplorer": false
+}
